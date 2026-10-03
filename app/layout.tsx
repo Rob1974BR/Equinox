@@ -3,9 +3,28 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Equinox Flowers | Digital Collection 2026',
-  description: 'Equinox Flowers digital collection and commercial information for 2026.',
+  title: 'Equinox Horticulture | Premium Equatorial Roses',
+  description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Equinox Horticulture | Premium Equatorial Roses',
+    description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
+    type: 'website',
+    images: [
+      {
+        url: '/apple-icon.png',
+        width: 180,
+        height: 180,
+        alt: 'Equinox Horticulture Premium Equatorial Roses',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Equinox Horticulture | Premium Equatorial Roses',
+    description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
+    images: ['/apple-icon.png'],
+  },
   icons: {
     icon: [
       {
