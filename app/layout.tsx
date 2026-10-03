@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://v0-equinox-flowers.vercel.app'),
   title: 'Equinox Horticulture | Premium Equatorial Roses',
   description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
   generator: 'v0.app',
@@ -10,20 +11,22 @@ export const metadata: Metadata = {
     title: 'Equinox Horticulture | Premium Equatorial Roses',
     description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
     type: 'website',
+    url: 'https://v0-equinox-flowers.vercel.app',
+    siteName: 'Equinox Horticulture',
     images: [
       {
-        url: '/apple-icon.png',
-        width: 180,
-        height: 180,
-        alt: 'Equinox Horticulture Premium Equatorial Roses',
+        url: 'https://v0-equinox-flowers.vercel.app/equinox-cover.png',
+        width: 1200,
+        height: 630,
+        alt: 'Equinox Horticulture Premium Equatorial Roses brochure cover',
       },
     ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Equinox Horticulture | Premium Equatorial Roses',
     description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
-    images: ['/apple-icon.png'],
+    images: ['https://v0-equinox-flowers.vercel.app/equinox-cover.png'],
   },
   icons: {
     icon: [
