@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #242838;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--background);
+  }
+
+  body {
+    color: var(--foreground);
+  }
+}
+
+.brochure-shell {
+  width: 100%;
+  min-height: 100svh;
+  background: #ffffff;
+}
+
+.brochure-frame {
+  display: block;
+  width: 100%;
+  height: 100svh;
+  min-height: 640px;
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  .brochure-frame {
+    min-height: 100svh;
+  }
+}
