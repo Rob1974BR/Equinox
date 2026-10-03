@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'Equinox Horticulture',
     images: [
       {
-        url: 'https://v0-equinox-flowers.vercel.app/equinox-social-preview-2026.jpg?v=3',
+        url: 'https://v0-equinox-flowers.vercel.app/equinox-social-preview-2026.jpg',
         width: 1200,
         height: 630,
         type: 'image/jpeg',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Equinox Horticulture | Premium Equatorial Roses',
     description: 'Discover the Equinox Horticulture Premium Equatorial Roses Collection 2026.',
-    images: ['https://v0-equinox-flowers.vercel.app/equinox-social-preview-2026.jpg?v=3'],
+    images: ['https://v0-equinox-flowers.vercel.app/equinox-social-preview-2026.jpg'],
   },
   icons: {
     icon: [
