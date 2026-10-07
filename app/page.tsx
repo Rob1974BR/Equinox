@@ -19,15 +19,34 @@ export default function Page() {
       node = walker.nextNode()
     }
 
-    // Approved Holland Agency contact update.
     const labels = Array.from(doc.querySelectorAll('.contact-label'))
+
+    // Approved FOB Sales Agency - Kenya contact update.
+    const fobLabel = labels.find(
+      (el) =>
+        el.textContent?.trim().toUpperCase() === 'FOB SALES AGENCY · KENYA'
+    )
+
+    const fobCard = fobLabel?.closest('.contact-card')
+    if (fobCard) {
+      fobCard.innerHTML = `
+        <div class="contact-label">FOB SALES AGENCY · KENYA</div>
+        <h3>Floragate Ltd</h3>
+        <p style="font-style:normal">FOB sales and commercial support from Kenya.</p>
+        <h4>Victoria Kungu</h4>
+        <div style="color:#d8dae0;font-size:13px;line-height:1.7;font-weight:400">+025 728 210046</div>
+        <a href="mailto:marketing@floragate.co.ke">marketing@floragate.co.ke</a>
+      `
+    }
+
+    // Approved Holland Agency contact update.
     const hollandLabel = labels.find(
       (el) => el.textContent?.trim().toUpperCase() === 'HOLLAND AGENCY'
     )
 
-    const card = hollandLabel?.closest('.contact-card')
-    if (card) {
-      card.innerHTML = `
+    const hollandCard = hollandLabel?.closest('.contact-card')
+    if (hollandCard) {
+      hollandCard.innerHTML = `
         <div class="contact-label">HOLLAND AGENCY</div>
         <h3>Van der Deijl · The Netherlands</h3>
         <p>European sales, processing and distribution from Rijnsburg.</p>
