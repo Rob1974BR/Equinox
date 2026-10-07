@@ -34,7 +34,7 @@ export default function Page() {
         <h3>Floragate Ltd</h3>
         <p style="font-style:normal">FOB sales and commercial support from Kenya.</p>
         <h4>Victoria Kungu</h4>
-        <div style="color:#d8dae0;font-size:13px;line-height:1.7;font-weight:400">+025 728 210046</div>
+        <div style="color:#d8dae0;font-size:13px;line-height:1.7;font-weight:400">+25 728 210046</div>
         <a href="mailto:marketing@floragate.co.ke">marketing@floragate.co.ke</a>
       `
     }
@@ -53,13 +53,13 @@ export default function Page() {
 
         <div style="margin-top:16px">
           <h4 style="margin:0 0 6px">Jaap Snijer</h4>
-          <div style="color:#d8dae0;font-size:13px;line-height:1.7">0031-6-15309923</div>
+          <div style="color:#d8dae0;font-size:13px;line-height:1.7">+31 6 15309923</div>
           <a href="mailto:sales@vanderdeijl.nl">sales@vanderdeijl.nl</a>
         </div>
 
         <div style="margin-top:16px">
           <h4 style="margin:0 0 6px">Rob Brussee</h4>
-          <div style="color:#d8dae0;font-size:13px;line-height:1.7">0031-6-51610599</div>
+          <div style="color:#d8dae0;font-size:13px;line-height:1.7">+31 6 51610599</div>
           <a href="mailto:sales@vanderdeijl.nl">sales@vanderdeijl.nl</a>
         </div>
       `
